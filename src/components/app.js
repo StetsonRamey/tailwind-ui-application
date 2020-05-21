@@ -2,8 +2,8 @@ import { h, Component } from 'preact';
 import { Router } from 'preact-router';
 
 import Navbar from './Navbar';
-
-import Home from '../routes/home';
+import Footer from './Footer';
+import Hello from '../routes/hello';
 import About from '../routes/about';
 
 export default class App extends Component {
@@ -12,15 +12,20 @@ export default class App extends Component {
   };
 
   render() {
-
-
     return (
-      <div class="antialiased text-gray-900">
-        <Navbar />
-        <Router onChange={this.handleRoute}>
-          <Home path="/" page="home" />
-          <About path="/about/" page="about" />
-        </Router>
+      <div class="flex flex-col min-h-screen">
+        <header>
+          <Navbar />
+        </header>
+        <main class="flex-grow">
+          <Router onChange={this.handleRoute}>
+            <Hello path="/" />
+            <About path="/about/" page="about" />
+          </Router>
+        </main>
+        <footer>
+          <Footer />
+        </footer>
       </div>
     );
   }
