@@ -17,10 +17,10 @@ export default class App extends Component {
         <header>
           <Navbar />
         </header>
-        <main class="flex-grow">
+        <main class="flex-grow flex items-center justify-center">
           <Router onChange={this.handleRoute}>
             <Hello path="/" />
-            <About path="/about/" page="about" />
+            <About path="/about/" />
           </Router>
         </main>
         <footer>
