@@ -5,6 +5,9 @@ import Navbar from './Navbar';
 import Footer from './Footer';
 import Hello from '../routes/hello';
 import About from '../routes/about';
+import WhyGood from '../routes/why-i-good';
+import Drawbacks from '../routes/drawbacks';
+import Doing from "../routes/what-i've-been-doing";
 
 export default class App extends Component {
   handleRoute = (e) => {
@@ -21,6 +24,9 @@ export default class App extends Component {
           <Router onChange={this.handleRoute}>
             <Hello path="/" />
             <About path="/about/" />
+            <WhyGood path="/why-i'm-a-good-candidate/" />
+            <Drawbacks path="/what-are-some-drawbacks/" />
+            <Doing path="/what-i've-done/" />
           </Router>
         </main>
         <footer>
