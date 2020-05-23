@@ -1,11 +1,7 @@
 import { h } from 'preact';
-import { useState } from 'preact/hooks';
 import { Link, Match } from 'preact-router/match';
 
 const Navbar = () => {
-  const [toggle, setToggle] = useState(false);
-  const menuToggle = () => setToggle(!toggle);
-
   function nextPage(path) {
     switch (path) {
       case '/':
@@ -16,6 +12,10 @@ const Navbar = () => {
         return '/what-are-some-drawbacks/';
       case '/what-are-some-drawbacks/':
         return "/what-i've-done/";
+      case "/what-i've-done/":
+        return '/gpp/';
+      case '/gpp/':
+        return '/tts/';
     }
   }
   function prevPage(path) {
@@ -28,6 +28,10 @@ const Navbar = () => {
         return "/why-i'm-a-good-candidate/";
       case "/what-i've-done/":
         return '/what-are-some-drawbacks/';
+      case '/gpp/':
+        return "/what-i've-done/";
+      case '/tts/':
+        return '/gpp/';
     }
   }
 

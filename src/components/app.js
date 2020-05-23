@@ -8,6 +8,8 @@ import About from '../routes/about';
 import WhyGood from '../routes/why-i-good';
 import Drawbacks from '../routes/drawbacks';
 import Doing from "../routes/what-i've-been-doing";
+import Gpp from '../routes/great-plains-painting';
+import Tts from '../routes/tis-the-season';
 
 export default class App extends Component {
   handleRoute = (e) => {
@@ -27,6 +29,8 @@ export default class App extends Component {
             <WhyGood path="/why-i'm-a-good-candidate/" />
             <Drawbacks path="/what-are-some-drawbacks/" />
             <Doing path="/what-i've-done/" />
+            <Gpp path="/gpp/" />
+            <Tts path="/tts/" />
           </Router>
         </main>
         <footer>
