@@ -10,6 +10,8 @@ import Drawbacks from '../routes/drawbacks';
 import Doing from "../routes/what-i've-been-doing";
 import Gpp from '../routes/great-plains-painting';
 import Tts from '../routes/tis-the-season';
+import WhatNext from '../routes/what-next';
+import FatKitten from '../routes/fat-kitten';
 
 export default class App extends Component {
   handleRoute = (e) => {
@@ -31,6 +33,8 @@ export default class App extends Component {
             <Doing path="/what-i've-done/" />
             <Gpp path="/gpp/" />
             <Tts path="/tts/" />
+            <WhatNext path="/what's-next/" />
+            <FatKitten path="/fat-kitten/" />
           </Router>
         </main>
         <footer>

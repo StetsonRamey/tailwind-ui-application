@@ -6,7 +6,7 @@ const Tts = () => (
       <h1 class="text-3xl font-semibold tracking-wide pb-4">
         'Tis the Season Holiday Lighting
       </h1>
-      <p class="pb-2 mb-4 font-border-b-2 border-gray-400 md:text-xl">
+      <p class="pb-2 mb-4 border-b-2 border-gray-400 md:text-xl">
         Started super ghetto, as a test to see how cheaply and quickly I could
         set up a company
         <div class="pl-3 mt-2 text-sm font-light italic md:text-lg">
@@ -41,7 +41,7 @@ const Tts = () => (
               class="text-teal-500 underline hover:text-teal-700"
               href="https://github.com/StetsonRamey/Tis-the-Season-Site"
             >
-              code
+              code here
             </a>
           </p>
         </div>
@@ -71,8 +71,9 @@ const Tts = () => (
     <div>
       <p className="italic text-sm">
         This is where I started to see the power in being able to hack and build
-        with tech. My belief that learning how to code well is{' '}
-        <span class="text-teal-600 font-semibold">extremely</span> valuable.
+        with tech. My belief, learning how to code well is{' '}
+        <span class="text-teal-600 font-semibold">extremely</span> valuable, is
+        validated.
       </p>
     </div>
   </div>

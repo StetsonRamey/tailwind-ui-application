@@ -16,6 +16,10 @@ const Navbar = () => {
         return '/gpp/';
       case '/gpp/':
         return '/tts/';
+      case '/tts/':
+        return "/what's-next/";
+      case "/what's-next/":
+        return '/fat-kitten/';
     }
   }
   function prevPage(path) {
@@ -32,6 +36,10 @@ const Navbar = () => {
         return "/what-i've-done/";
       case '/tts/':
         return '/gpp/';
+      case "/what's-next/":
+        return '/tts/';
+      case '/fat-kitten/':
+        return "/what's-next/";
     }
   }
 
