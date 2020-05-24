@@ -13,7 +13,12 @@ const Footer = () => (
       <div class="text-white font-medium pl-2 -mt-1">+ Stetson = 🤷‍♂️</div>
     </div>
     <div class="text-gray-500 flex flex-col items-center pb-6">
-      <a class="hover:text-teal-500" href="https://github.com/StetsonRamey">
+      <a
+        class="hover:text-teal-500"
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://github.com/StetsonRamey"
+      >
         <svg
           class="fill-current w-5 h-5"
           xmlns="http://www.w3.org/2000/svg"
@@ -50,6 +55,14 @@ const Footer = () => (
           <path d="M18 2a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4c0-1.1.9-2 2-2h16zm-4.37 9.1L20 16v-2l-5.12-3.9L20 6V4l-10 8L0 4v2l5.12 4.1L0 14v2l6.37-4.9L10 14l3.63-2.9z"></path>
         </svg>
         <span className="pl-2 block">stetson.ramey@gmail.com</span>
+      </a>
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-teal-500 pt-2"
+        href="https://github.com/StetsonRamey/tailwind-ui-application"
+      >
+        code for this site
       </a>
     </div>
   </div>

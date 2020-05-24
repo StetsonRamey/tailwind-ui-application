@@ -20,6 +20,10 @@ const Navbar = () => {
         return "/what's-next/";
       case "/what's-next/":
         return '/fat-kitten/';
+      case '/fat-kitten/':
+        return '/pitch-1/';
+      case '/pitch-1/':
+        return '/pitch-2/';
     }
   }
   function prevPage(path) {
@@ -40,6 +44,10 @@ const Navbar = () => {
         return '/tts/';
       case '/fat-kitten/':
         return "/what's-next/";
+      case '/pitch-1/':
+        return '/fat-kitten/';
+      case '/pitch-2/':
+        return '/pitch-1/';
     }
   }
 
@@ -59,11 +67,19 @@ const Navbar = () => {
         </div>
         <div>
           <Match path="/">
-            {({ path }) => (
-              <Link class="text-white" href={nextPage(path)}>
-                Next &rarr;
-              </Link>
-            )}
+            {({ path }) =>
+              (path === '/pitch-1/' && (
+                <Link class="text-white" href={nextPage(path)}>
+                  Last Page &rarr;
+                </Link>
+              )) ||
+              (path !== '/pitch-1/' && path !== '/pitch-2/' && (
+                <Link class="text-white" href={nextPage(path)}>
+                  Next &rarr;
+                </Link>
+              )) ||
+              (path === '/pitch-2/' && <p class="text-white">🖐 we done</p>)
+            }
           </Match>
         </div>
       </nav>
