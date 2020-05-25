@@ -20,6 +20,8 @@ const About = () => (
       <p class="pb-1">
         📐 Construction engineer for{' '}
         <a
+          target="_blank"
+          rel="noopener noreferrer"
           class="text-teal-500 underline"
           href="https://www.kiewit.com/markets/power"
         >
@@ -48,6 +50,8 @@ const About = () => (
       <p class="">
         👨‍💻 Completed a{' '}
         <a
+          target="_blank"
+          rel="noopener noreferrer"
           class="text-teal-500 underline"
           href="https://bootcamp.ku.edu/coding/"
         >

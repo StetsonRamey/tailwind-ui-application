@@ -2,7 +2,7 @@ import { h } from 'preact';
 import { Link } from 'preact-router/match';
 
 const Doing = () => (
-  <div class="py-12 px-12 ">
+  <div class="py-12 px-12">
     <h1 class="mb-5 text-3xl text-gray-700 font-extrabold capitalize tracking-wide sm:text-5xl lg:text-6xl lg:tracking-wider">
       What I've done since 2015
     </h1>
@@ -10,6 +10,8 @@ const Doing = () => (
       <p class="mb-3 text-lg leading-tight font-semibold text-gray-700 md:text-3xl">
         Started{' '}
         <a
+          target="_blank"
+          rel="noopener noreferrer"
           class="text-teal-500 underline hover:text-teal-700"
           href="https://greatplainspaintingkc.com/"
         >
@@ -27,7 +29,11 @@ const Doing = () => (
       </div>
     </div>
     <div class="mt-4 mb-10 max-w-3xl">
-      <a href="https://greatplainspaintingkc.com/">
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://greatplainspaintingkc.com/"
+      >
         <img src="../../assets/gpp.png" alt="Great Plains Painting" />
       </a>
     </div>
@@ -35,6 +41,8 @@ const Doing = () => (
       <p class="mb-3 text-lg leading-tight font-semibold text-gray-700 md:text-3xl">
         Started{' '}
         <a
+          target="_blank"
+          rel="noopener noreferrer"
           class="text-teal-500 underline hover:text-teal-700"
           href="https://tistheseasonkc.com/"
         >
@@ -46,7 +54,11 @@ const Doing = () => (
       </div>
     </div>
     <div class="mt-4 max-w-3xl">
-      <a href="https://tistheseasonkc.com/">
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://tistheseasonkc.com/"
+      >
         <img src="../../assets/tts.png" alt="Tis the Season Holiday Lighting" />
       </a>
     </div>

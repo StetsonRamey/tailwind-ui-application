@@ -38,6 +38,8 @@ const Tts = () => (
           <p class="mb-2">
             -{' '}
             <a
+              target="_blank"
+              rel="noopener noreferrer"
               class="text-teal-500 underline hover:text-teal-700"
               href="https://github.com/StetsonRamey/Tis-the-Season-Site"
             >

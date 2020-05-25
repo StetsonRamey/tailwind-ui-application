@@ -1,11 +1,10 @@
 {
-  "name": "preact-simple",
-  "short_name": "preact-simple",
+  "name": "stetson-tailwindui-app",
+  "short_name": "stetson-tailwindui-app",
   "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#fff",
-  "theme_color": "#673ab8",
   "icons": [
     {
       "src": "/assets/icon.png",

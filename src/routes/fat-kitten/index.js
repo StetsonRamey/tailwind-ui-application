@@ -16,6 +16,8 @@ const FatKitten = () => (
         <p class="mb-2">
           - designed in Figma (
           <a
+            target="_blank"
+            rel="noopener noreferrer"
             class="text-teal-500 hover:text-teal-700 underline"
             href="https://www.figma.com/file/oC8IEGBI8l6dHIEz57UQMh/new-biz-site?node-id=21%3A0"
           >
