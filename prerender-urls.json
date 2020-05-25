@@ -1,0 +1,46 @@
+[
+  {
+    "url": "/",
+    "title": "Stetson's Application for Tailwind UI"
+  },
+  {
+    "url": "/about",
+    "title": "About Me"
+  },
+  {
+    "url": "/why-i'm-a-good-candidate",
+    "title": "Good Things"
+  },
+  {
+    "url": "/what-are-some-drawbacks",
+    "title": "Drawbacks"
+  },
+  {
+    "url": "/what-i've-done",
+    "title": "History"
+  },
+  {
+    "url": "/gpp",
+    "title": "Great Plains Painting"
+  },
+  {
+    "url": "/tts",
+    "title": "Tis the Season"
+  },
+  {
+    "url": "/what's-next",
+    "title": "What's Next"
+  },
+  {
+    "url": "/fat-kitten",
+    "title": "Fat Kitten Business"
+  },
+  {
+    "url": "/pitch-1",
+    "title": "Possibility #1"
+  },
+  {
+    "url": "/pitch-2",
+    "title": "Possibility #2"
+  }
+]
