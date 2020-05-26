@@ -12,6 +12,7 @@ import Gpp from '../routes/great-plains-painting';
 import Tts from '../routes/tis-the-season';
 import WhatNext from '../routes/what-next';
 import FatKitten from '../routes/fat-kitten';
+import Fit from "../routes/why-we're-a-good-fit";
 import Pitch1 from '../routes/pitch-1';
 import Pitch2 from '../routes/pitch-2';
 
@@ -37,6 +38,7 @@ export default class App extends Component {
             <Tts path="/tts/" />
             <WhatNext path="/what's-next/" />
             <FatKitten path="/fat-kitten/" />
+            <Fit path="/why-we're-a-good-fit/" />
             <Pitch1 path="/pitch-1/" />
             <Pitch2 path="/pitch-2/" />
           </Router>

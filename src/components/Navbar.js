@@ -21,6 +21,8 @@ const Navbar = () => {
       case "/what's-next/":
         return '/fat-kitten/';
       case '/fat-kitten/':
+        return "/why-we're-a-good-fit/";
+      case "/why-we're-a-good-fit/":
         return '/pitch-1/';
       case '/pitch-1/':
         return '/pitch-2/';
@@ -44,8 +46,10 @@ const Navbar = () => {
         return '/tts/';
       case '/fat-kitten/':
         return "/what's-next/";
-      case '/pitch-1/':
+      case "/why-we're-a-good-fit/":
         return '/fat-kitten/';
+      case '/pitch-1/':
+        return "/why-we're-a-good-fit/";
       case '/pitch-2/':
         return '/pitch-1/';
     }
