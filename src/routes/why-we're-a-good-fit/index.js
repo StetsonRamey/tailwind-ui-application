@@ -45,15 +45,26 @@ const Fit = () => (
         Ever solved a problem in your sleep (or had the idea that led to the
         solution)? I have and something about the way you work on stuff gives me
         the sense that you're the same way. I can tell Steve loves beautiful
-        design and interaction. As with me, I'm sure if he receives a
-        recommendation for a business and hits their site on his phone and it's
-        a straight 90's / non-mobile friendly atrocity he questions whether or
-        not he wants to spend his money there. I think I see what you're doing
-        with TailwindUI and it fits with a philosophy I stole from Amazon when I
-        was in college. When they released the feature where you could purchase
-        with 1 click it caught my attention and has stuck with me. Make it
-        insanely easy for people to give you their money for something they like
-        and you'll never have a problem with revenue. TailwindUI is doing that.
+        design and interaction. Maybe you're like me Steve and when someone
+        tells you,{' '}
+        <span class="italic text-gray-500">
+          "you gotta check out this X business"
+        </span>{' '}
+        and I go to their site on my phone and it's not mobile and straight from
+        the 90's it makes me question whether I really wanna check it out or
+        not. I remind myself that it may not be representative of the way they
+        run a company, but it is a display of how important well designed things
+        are. I associate well designed websites with well designed (and well
+        run) companies.
+      </p>
+      <p class="mb-3">
+        I think I see what you're doing with TailwindUI and it fits with a
+        philosophy I stole from Amazon when I was in college. When they released
+        the feature where you could purchase with 1 click it caught my attention
+        and has stuck with me. Make it insanely easy for people to give you
+        their money for something they like and you'll never have a problem with
+        revenue. TailwindUI is making it insanely easy for people to use
+        TailwindCSS and at an amazing price.
       </p>
       <p class="mb-3 text-indigo-500">
         This particular point, company fit, was my greatest challenge hiring
@@ -84,7 +95,7 @@ const Fit = () => (
         money, from anywhere in the world, with a computer and as few other
         resources as possible.
       </p>
-      <p class="mb-4">
+      <p>
         My hope is that our future could look something like this -- I begin
         working with you now, while this product is small. My ideas and
         suggestions mesh well with yours and together we all build this into not
@@ -155,7 +166,8 @@ const Fit = () => (
         years (it's not perfect but it works) and I never wrote any code. I
         think we'll see more powerful products (built of course by coders) that
         allow people or businesses (non-coders) to do powerful business
-        functions. Like Wix or Airtable on steroids.
+        functions with LowCode or NoCode (the popular mantras of the future).
+        Like Wix or Airtable on steroids.
       </p>
       <p class="mb-4">
         Here's where the prediction gets bold but likely pretty wobbly. I think
