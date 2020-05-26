@@ -1,7 +1,7 @@
 import { h } from 'preact';
 
 const Fit = () => (
-  <div class="py-12 px-20">
+  <div class="py-12 px-8 md:px-20 lg:px-48">
     <p class="mb-3 text-xl leading-tight font-semibold text-gray-700 md:text-3xl lg:mb-6">
       The How to Apply Section Specifics
     </p>
