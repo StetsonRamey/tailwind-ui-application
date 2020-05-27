@@ -1,5 +1,6 @@
 module.exports = {
-  purge: ['./src/**/*.js', './build/index.html'],
+  purge: [
+  ],
   theme: {
     extend: {
       spacing: {
