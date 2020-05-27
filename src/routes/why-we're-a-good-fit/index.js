@@ -27,7 +27,10 @@ const Fit = () => (
         starting to figure that out. With a team of 4 people you are building
         something that will potentially be used by millions (or at least
         hundreds of thousands). That's insane to think about! You can build from
-        anywhere in the world you're connected to the internet.
+        anywhere in the world you're connected to the internet.{' '}
+        <span class="italic font-semibold text-indigo-500">
+          So being huge fans of tech we have in common.
+        </span>
       </p>
       <p class="mb-4">
         When I worked at Kiewit, I worked with thousands of other people. At
@@ -37,7 +40,15 @@ const Fit = () => (
         I started small by design, and rather than increasing employees to scale
         revenue, looked at efficiency, cost of goods sold, and marketing spend
         to increase revenue with the same team. I like working with 3-6 amazing
-        people.
+        people.{' '}
+        <span class="italic font-semibold text-indigo-500">
+          Do you want to build a big company startup style or keep it small and
+          do what DHH did with Basecamp? Architecting a company is delicate and
+          requires as much design or thought as any product. I've read
+          extensively about building businesses and building cool companies that
+          change the lives of people that work for them is one of the most
+          rewarding things I've ever done and I want to do more of it.
+        </span>
       </p>
       <p class="mb-3">
         Adam I get a sense that you're possibly like me in that if there is a
@@ -47,15 +58,15 @@ const Fit = () => (
         the sense that you're the same way. I can tell Steve loves beautiful
         design and interaction. Maybe you're like me Steve and when someone
         tells you,{' '}
-        <span class="italic text-gray-500">
+        <span class="italic text-gray-600">
           "you gotta check out this X business"
         </span>{' '}
-        and I go to their site on my phone and it's not mobile and straight from
-        the 90's it makes me question whether I really wanna check it out or
-        not. I remind myself that it may not be representative of the way they
-        run a company, but it is a display of how important well designed things
-        are. I associate well designed websites with well designed (and well
-        run) companies.
+        and I go to their site on my phone and it's not mobile and hasn't
+        changed since 1992 it makes me question whether I really wanna check it
+        out or not. I remind myself that it may not be representative of the way
+        they run a company, but it is a display of how important well designed
+        things are. I associate well designed websites with well designed (and
+        well run) companies.
       </p>
       <p class="mb-3">
         I think I see what you're doing with TailwindUI and it fits with a
@@ -65,6 +76,20 @@ const Fit = () => (
         their money for something they like and you'll never have a problem with
         revenue. TailwindUI is making it insanely easy for people to use
         TailwindCSS and at an amazing price.
+      </p>
+      <p class="mb-3">
+        I identify myself as a builder. I love to build things. I make physical
+        things in my garage (this weekend I'm making an outdoor table, cause in
+        CA you can do everything outside I guess), and since selling my painting
+        company and having more time this year I've been making things more with
+        a computer. I love to learn. Lately, when I get stuck or need a break
+        from staring into VScode I'll read about classical mechanics. I loved
+        Physics in college but only did Physics 1 and didn't get to learn
+        anything about electricity and magnetism or the quantum world. I read
+        voraciously. But this year have decided to only buy 6 new books and to
+        re-read many of my old favorites. I love figuring out how things work
+        and if you hire me I'm confident that together we'll be able to figure
+        out anything we need to, problem/product/business related.
       </p>
       <p class="mb-3 text-indigo-500">
         This particular point, company fit, was my greatest challenge hiring
