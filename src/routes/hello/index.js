@@ -1,8 +1,7 @@
 import { h } from 'preact';
-import { Link } from 'preact-router/match';
 
 const Hello = () => (
-  <div class="text-center px-4 block">
+  <div class="text-center px-4 flex-grow">
     <h1 class="text-5xl text-gray-700 font-extrabold capitalize tracking-wide lg:text-6xl lg:tracking-wider">
       Hello
     </h1>

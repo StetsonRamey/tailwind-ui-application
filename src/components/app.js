@@ -27,7 +27,7 @@ export default class App extends Component {
         <header>
           <Navbar />
         </header>
-        <main class="flex-grow flex items-center justify-center mx-auto max-w-screen-xl">
+        <main class="flex-1 flex items-center justify-center mx-auto max-w-screen-xl">
           <Router onChange={this.handleRoute}>
             <Hello path="/" />
             <About path="/about/" />

@@ -1,6 +1,5 @@
 module.exports = {
-  purge: [
-  ],
+  purge: [],
   theme: {
     extend: {
       spacing: {

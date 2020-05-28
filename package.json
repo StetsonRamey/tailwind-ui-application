@@ -6,10 +6,8 @@
   "scripts": {
     "build": "preact build",
     "serve": "sirv build --cors --single",
-    "dev": "preact watch & npm run watch-t",
-    "lint": "eslint src",
-    "build-t": "postcss src/assets/css/tailwind.css -o src/tailwind.css",
-    "watch-t": "postcss src/assets/css/tailwind.css -o src/tailwind.css --watch"
+    "dev": "preact watch",
+    "lint": "eslint src"
   },
   "eslintConfig": {
     "extends": "eslint-config-synacor"
